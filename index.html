@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This is a title and a favicone -->
+    <title>Data Science Project</title>
+    <link rel="icon" type="image/x-icon" href="/img/Logo250.png">
+
+    <!-- This is a Eric Mayers CSS reset file, bootstrap grid and my own style sheet -->
+    <link rel="Stylesheet" href="css/css-reset.css">
+    <link rel="Stylesheet" href="css/bootstrap-grid.css">
+    <link rel="Stylesheet" href="css/style.css">
+
+
+    <!-- These are fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <!-- <a href="https://www.freepik.com/icons/instagram">Icon by edt.im</a> -->
+</head>
+
+
+
+
+<body>
+
+        
+    <!-------------------------- NAV ----------------------------->
+    <nav>
+       
+        <div class="container-nav">
+        
+            <!----------- LEFT MENU --------------->
+            <div class="menu-left">
+                <a href="https://datascienceproject.eu/"> Home </a>
+                <a href="https://datascienceproject.eu/blog/"> Blog </a>
+                <a href="https://datascienceproject.eu/lab/"> Lab </a>
+            </div>
+
+        
+        
+
+            <!----------- RIGHT (SOCIAL) MENU --------------->
+            <div class="social-icons">
+
+                <a href="https://www.instagram.com/datascienceproject.eu/" target="_blank" class="social-icon instagram">
+                    <img src="img/icons/instagram.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.youtube.com/@datascienceproject" target="_blank" class="social-icon youtube">
+                    <img src="img/icons/youtube.png" alt="YouTube">
+                </a>
+
+                <a href="https://github.com/DataScienceProjectEU" target="_blank" class="social-icon github">
+                    <img src="img/icons/github.png" alt="GitHub">
+                </a>
+
+            </div>
+
+        </div>
+
+        
+    </nav>
+    
+    
+    
+    <!-------------------------- HEADER -------------------------->
+    <header>
+            <h1>The Reading Room</h1>
+            <p>Your Gateway to Timeless Stories</p>
+
+    </header>
+
+
+    <div class="container-main">
+
+                    <!-------------------------- Search Engine -------------------------->
+                <div class="book-selection">
+                    
+                    <div class="form-container">
+                        <label for="genre">Choose a genre:</label>
+                        <select id="genre">
+                            <option value="">All Genres</option>
+                            <option value="Fiction">Fiction</option>
+                            <option value="Dystopian">Dystopian</option>
+                            <option value="Romance">Romance</option>    
+                            <option value="Adventure">Adventure</option> 
+                            <option value="Historical">Historical</option> 
+                            <option value="Philosophical">Philosophical</option>  
+                            <option value="Gothic">Gothic</option>  
+                            <option value="Epic">Epic</option> 
+                            <option value="Fantasy">Fantasy</option>  
+                
+                        </select>
+                
+                        <label for="searchInput">Search by title:</label>
+                        <input type="text" id="searchInput" placeholder="Enter book title...">
+                        
+                        <button id="searchButton">Search</button>
+
+                    </div>
+
+                    <div class="image-container">
+                        <img src="img/reading-room.png" alt="Reading Room">
+
+                    </div>
+
+                </div>
+        
+                    <!-------------------------- XML Data -------------------------->
+                    
+                    <div id="bookList" class="book-list"></div>
+
+                    <!-------------------------- END OF XML Data -------------------------->
+
+                
+    
+                </div>
+
+    <!-------------------------- FOOTER -------------------------->
+   
+    <footer>
+        
+        <div class="social-icons2">
+                <a href="https://www.instagram.com/datascienceproject.eu/" target="_blank" class="social-icon">
+                                <img src="img/icons/instagram.png" alt="Instagram">
+                </a>
+                
+                <a href="https://www.youtube.com/@datascienceproject" target="_blank" class="social-icon">
+                                <img src="img/icons/youtube.png" alt="YouTube">
+                </a>
+                
+                <a href="https://github.com/DataScienceProjectEU" target="_blank" class="social-icon">
+                                <img src="img/icons/github.png" alt="GitHub">
+                </a>
+        </div>
+        
+        
+        <p>All rights reserved | DataScienceProject.eu 2024</p>
+        
+    </footer>
+
+
+    <!-- Link to JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<library>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <year>1960</year>
+        <genre>Fiction</genre>
+        <summary>A novel about the serious issues of rape and racial inequality.</summary>
+        <image>img/to-kill-a-mockingbird.png</image>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <year>1949</year>
+        <genre>Dystopian</genre>
+        <summary>A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.</summary>
+        <image>img/1984.png</image>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <year>1813</year>
+        <genre>Romance</genre>
+        <summary>A romantic novel that charts the emotional development of the protagonist, Elizabeth Bennet.</summary>
+        <image>img/pride-and-prejudice.png</image>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+        <genre>Fiction</genre>
+        <summary>A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.</summary>
+        <image>img/the-great-gatsby.png</image>
+    </book>
+    <book>
+        <title>Moby Dick</title>
+        <author>Herman Melville</author>
+        <year>1851</year>
+        <genre>Adventure</genre>
+        <summary>The narrative of Captain Ahab's obsessive quest to seek revenge on Moby Dick.</summary>
+        <image>img/moby-dick.png</image>
+    </book>
+    <book>
+        <title>War and Peace</title>
+        <author>Leo Tolstoy</author>
+        <year>1869</year>
+        <genre>Historical</genre>
+        <summary>A novel that chronicles the history of the French invasion of Russia and its impact on Tsarist society.</summary>
+        <image>img/war-and-peace.png</image>
+    </book>
+    <book>
+        <title>Crime and Punishment</title>
+        <author>Fyodor Dostoevsky</author>
+        <year>1866</year>
+        <genre>Philosophical</genre>
+        <summary>A novel about the mental anguish and moral dilemmas of an impoverished ex-student.</summary>
+        <image>img/crime-and-punishment.png</image>
+    </book>
+    <book>
+        <title>Jane Eyre</title>
+        <author>Charlotte Brontë</author>
+        <year>1847</year>
+        <genre>Romance</genre>
+        <summary>The experiences of the eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.</summary>
+        <image>img/jane-eyre.png</image>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <year>1951</year>
+        <genre>Fiction</genre>
+        <summary>The narrative of a young boy named Holden Caulfield, recounting his experiences in New York City.</summary>
+        <image>img/the-catcher-in-the-rye.png</image>
+    </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <year>1932</year>
+        <genre>Dystopian</genre>
+        <summary>A dystopian novel that critiques the dangers of an all-powerful state and technological advancement.</summary>
+        <image>img/brave-new-world.png</image>
+    </book>
+    <book>
+        <title>Wuthering Heights</title>
+        <author>Emily Brontë</author>
+        <year>1847</year>
+        <genre>Gothic</genre>
+        <summary>A tale of passion and revenge between the Earnshaw and Linton families.</summary>
+        <image>img/wuthering-heights.png</image>
+    </book>
+    <book>
+        <title>The Odyssey</title>
+        <author>Homer</author>
+        <year>-800</year>
+        <genre>Epic</genre>
+        <summary>The adventures of Odysseus as he tries to return home after the Trojan War.</summary>
+        <image>img/the-odyssey.png</image>
+    </book>
+    <book>
+        <title>The Iliad</title>
+        <author>Homer</author>
+        <year>-750</year>
+        <genre>Epic</genre>
+        <summary>An epic poem set during the Trojan War, focusing on the hero Achilles.</summary>
+        <image>img/the-iliad.png</image>
+    </book>
+    <book>
+        <title>Don Quixote</title>
+        <author>Miguel de Cervantes</author>
+        <year>1605</year>
+        <genre>Adventure</genre>
+        <summary>The adventures of a nobleman who reads so many chivalric romances that he loses his sanity.</summary>
+        <image>img/don-quixote.png</image>
+    </book>
+    <book>
+        <title>The Brothers Karamazov</title>
+        <author>Fyodor Dostoevsky</author>
+        <year>1880</year>
+        <genre>Philosophical</genre>
+        <summary>A spiritual drama of moral struggles concerning faith, doubt, and reason.</summary>
+        <image>img/the-brothers-karamazov.png</image>
+    </book>
+    <book>
+        <title>The Divine Comedy</title>
+        <author>Dante Alighieri</author>
+        <year>1320</year>
+        <genre>Epic</genre>
+        <summary>An epic poem describing Dante's journey through Hell, Purgatory, and Paradise.</summary>
+        <image>img/the-divine-comedy.png</image>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <genre>Fantasy</genre>
+        <summary>The adventures of Bilbo Baggins, a hobbit who embarks on an unexpected journey.</summary>
+        <image>img/the-hobbit.png</image>
+    </book>
+    <book>
+        <title>Les Misérables</title>
+        <author>Victor Hugo</author>
+        <year>1862</year>
+        <genre>Historical</genre>
+        <summary>A story of redemption and revolution set in 19th-century France.</summary>
+        <image>img/les-miserables.png</image>
+    </book>
+    <book>
+        <title>The Adventures of Huckleberry Finn</title>
+        <author>Mark Twain</author>
+        <year>1884</year>
+        <genre>Adventure</genre>
+        <summary>The adventures of a young boy and a runaway slave as they travel down the Mississippi River.</summary>
+        <image>img/the-adventures-of-huckleberry-finn.png</image>
+    </book>
+    <book>
+        <title>The Count of Monte Cristo</title>
+        <author>Alexandre Dumas</author>
+        <year>1844</year>
+        <genre>Adventure</genre>
+        <summary>The story of a man's journey from imprisonment to revenge.</summary>
+        <image>img/the-count-of-monte-cristo.png</image>
+    </book>
+</library>

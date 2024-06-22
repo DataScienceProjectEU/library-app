@@ -1,0 +1,418 @@
+/* -------------------------- WHOLE BODY -------------------------- */
+/* Colors 
+ -> niebieski: #546FB7
+ -> pomarańcz: #F49E5F
+ -> odcień zieleni: #98B1C2
+ -> czerwony: #DF4C5A
+ -> szary: #757575
+ -> biały: #FFFFFE
+*/
+
+
+body {
+
+    margin: 0;
+
+    /* Fonts */
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #404040;
+
+}
+
+h1 {
+    font-family: 'Oswald', serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: black;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+h2 {
+    font-family: 'Oswald', serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+    padding: 0px;
+    margin: 50px 0px 15px 0px;
+}
+
+
+
+a:visited {
+    color: #404040;
+}
+
+
+/* -------------------------- NAV -------------------------- */
+nav {
+    /* background-image: linear-gradient(160deg, #546FB7 0%, white 100%); */
+    background-color: #A4B2D9;
+    height: 50px;
+    
+}
+
+.container-nav {
+    height: 50px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    flex-direction: row;
+    font-size: 14px;  
+}
+
+
+.menu-left {
+    /* margin-right: auto; */
+}
+
+.social-icons {
+    margin-left: auto;
+}
+
+        /* -------------------------- LEFT MENU -------------------------------------------- */
+        .menu-left {
+            display: flex;
+            align-items: center;
+            margin-left: 5px;
+        }
+
+        .menu-left a  {
+            text-decoration: none;
+            color: #404040;
+            margin-left: 15px;
+        }
+
+    
+        .menu-left a:visited {
+            color: #404040;
+        }
+
+        .menu-left a:last-child {
+            margin-right: 0; /* Usuwa odstęp po ostatnim linku w każdym menu */
+        }
+
+
+
+        /* -------------------------- SOCIAL ICONS - RIGHT MENU ---------------------------- */
+        .social-icons {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            gap:8px;  /*Odstęp między ikonami */
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #404040;
+
+        }
+
+       .social-icons a:visited {
+            color: #404040;
+        }
+
+        .menu-left a:last-child, .social-icons a:last-child {
+            margin-right: 0; /* Usuwa odstęp po ostatnim linku w każdym menu */
+        }
+
+        /* -------------------------- SINGLE ICON -------------------------- */
+
+       
+        .social-icon {
+            /* background-color: white; */
+            border-radius: 50%; /* Zaokrąglenie krawędzi, aby utworzyć okrąg */
+            width: 18px; /* Szerokość kontenera ikony */
+            height: auto;
+            transition: transform 0.5s ease-in-out; /* Dodanie płynnej animacji */
+        }
+        
+        
+        .social-icon img {
+            display: inline-block;
+            /* width: 18px;  Szerokość kontenera ikony */
+            width: 90%;
+            height: 100%;
+            transition: transform 0.5s ease-in-out; /* Dodanie płynnej animacji */
+            background-size: cover; /* Dopasowanie tła do kontenera */
+            background-position: center; /* Centrowanie tła */
+        }
+
+
+
+
+        .social-icon:hover {
+            transform: scale(1.4); /* Powiększenie ikony o 20% po najechaniu kursorem */
+            transform: translateY(-5px); /* Przesunięcie ikony w górę o 5px po najechaniu kursorem */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Zwiększenie cienia po najechaniu kursorem */
+}
+        
+
+
+/* -------------------------- HEADER -------------------------- */
+
+header {
+    background-color: white;
+    color: #404040;
+    font-size: 18px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+
+}
+
+
+/* -------------------------- MAIN -------------------------- */
+
+.container-main {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.element-picture {
+    transition: transform 10s ease-in-out; 
+}
+.element-picture img {
+    flex: 1;
+   
+    padding: 10px;
+    align-items: right;
+    max-width: 500px;
+    max-height: auto;
+
+}
+
+
+.element-text {
+    flex: 1;
+    color: #404040;
+    text-align: left;
+    padding: 10px;
+    /* max-width: 500px;
+    max-height: 500px; */
+   
+}
+
+.element-text p {
+    font-size: 18px;
+    color: #404040;
+    text-align: left;
+    padding: 10px;
+}
+
+.element-text h2 {
+    text-align: center;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+.element-picture img {
+    padding: 10px;
+    /* max-width: 300px;
+    max-height: 300px; */
+} 
+
+.element-picture img:hover {
+    transform: translateY(-7px); /* Przesunięcie ikony w górę o 5px po najechaniu kursorem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Zwiększenie cienia po najechaniu kursorem */
+}
+
+
+/* -------------------------- Search engine -------------------------- */
+
+.book-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.form-container {
+    max-width: 1200px;
+    margin: 50px 30px 30px 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container select, .form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #A4B2D9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #40518F;
+}
+
+/* -------------------------- XML BOOKS -------------------------- */
+
+.book-list {
+    display: flex; /* Ustawienie kontenera na flexbox */
+    flex-wrap: wrap; /* Umożliwienie zawijania elementów na nowej linii */
+    justify-content: space-between; /* Rozłożenie elementów na osi głównej (poziomej) */
+    padding: 20px; /* Dodanie wewnętrznego marginesu */
+}
+
+.book {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 260px;
+    height: auto;
+    /* transition: transform 5s ease-in-out;  Dodanie transition do elementu .book NIE DZIAŁA */
+
+    /* Dodatkowe style */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    
+.book:hover {
+    transform: translateY(-7px); /* Przesunięcie ikony w górę o 5px po najechaniu kursorem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10); /* Zwiększenie cienia po najechaniu kursorem */
+}
+
+.book h2 {
+    margin: 0;
+    min-height: 60px;
+    /* padding: 10px 0px 0px 0px; */
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+
+    display: flex;
+    align-items: center;  /* Wycentrowanie w pionie */
+    justify-content: center;  /* Wycentrowanie w poziomie */
+}
+
+.book-info {
+    padding: 10px;
+}
+
+
+.book .book-details {
+    margin-top: 10px;
+    
+}
+
+.book-details p {
+    text-align: left;
+    margin: 5px 0; /* Dodatkowy margines dla każdego <p> */
+}
+
+.book .summary {
+    margin-top: 10px;
+    text-align: left;
+    
+}
+
+/* Dodatkowe style dla obrazków */
+.book .book-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+
+/* -------------------------- FOOTER -------------------------- */
+
+footer {
+
+
+
+    background-color: #FAF9F7;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Wycentrowanie w pionie */
+    justify-content: space-between; /* Rozmieszczenie treści */
+    
+}
+
+.social-icons2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Wycentrowanie w pionie */
+    justify-content: space-between; /* Rozmieszczenie treści */
+
+    gap:10px;  /*Odstęp między ikonami */
+    margin: 10px;
+}
+
+p {
+    text-align: center; /* Wycentrowanie tekstu */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+
+
